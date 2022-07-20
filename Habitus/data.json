@@ -1,0 +1,27 @@
+
+[
+    {
+        "id" : 0,
+        "name" : "Push",
+        "excercises" : [
+            {"id" : 0, "name" : "Dumbell bench bress", "sets" : 3, "reps" : "8-10"},
+            {"id" : 1, "name" : "Incline barbell bench bress", "sets" : 3, "reps" : "8-10"},
+            {"id" : 2, "name" : "Dips", "sets" : 3, "reps" : "8-10"},
+            {"id" : 3, "name" : "Rope tricep extension", "sets" : 3, "reps" : "8-10"},
+            {"id" : 4, "name" : "Seated overhead barbell press", "sets" : 3, "reps" : "8-10"}
+        ]
+    },
+    {
+        "id" : 1,
+        "name" : "Pull",
+        "excercises" : [
+            {"id" : 0, "name" : "Pull-ups", "sets" : 3, "reps" : "8-10"},
+            {"id" : 1, "name" : "Barbell row", "sets" : 3, "reps" : "8-10"},
+            {"id" : 2, "name" : "Standing dumbell curl", "sets" : 3, "reps" : "8-10"},
+            {"id" : 3, "name" : "Seated incline curl", "sets" : 3, "reps" : "8-10"},
+            {"id" : 4, "name" : "Lat pull down", "sets" : 3, "reps" : "8-10"},
+            {"id" : 5, "name" : "Rear deltoid fly", "sets" : 3, "reps" : "8-10"},
+            {"id" : 6, "name" : "Preacher curls", "sets" : 3, "reps" : "8-10"}
+        ]
+    }
+]

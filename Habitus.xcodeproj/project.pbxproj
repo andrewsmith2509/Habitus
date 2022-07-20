@@ -8,17 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		DB378AE32888874000950AA2 /* HabitusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB378AE22888874000950AA2 /* HabitusApp.swift */; };
-		DB378AE52888874000950AA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB378AE42888874000950AA2 /* ContentView.swift */; };
+		DB378AE52888874000950AA2 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB378AE42888874000950AA2 /* HomeTabView.swift */; };
 		DB378AE72888874000950AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB378AE62888874000950AA2 /* Assets.xcassets */; };
 		DB378AEA2888874000950AA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB378AE92888874000950AA2 /* Preview Assets.xcassets */; };
+		DB378AF828888F4F00950AA2 /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB378AF728888F4F00950AA2 /* WorkoutListView.swift */; };
+		DB378AFA28888FC600950AA2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB378AF928888FC600950AA2 /* HomeView.swift */; };
+		DB378AFC2888908300950AA2 /* WorkoutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB378AFB2888908300950AA2 /* WorkoutButtonView.swift */; };
+		DB378AFE2888950800950AA2 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DB378AFD2888950800950AA2 /* data.json */; };
+		DB378B00288897C100950AA2 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB378AFF288897C100950AA2 /* ContentModel.swift */; };
+		DB378B02288897CF00950AA2 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB378B01288897CF00950AA2 /* Workout.swift */; };
+		DB378B0428889FA000950AA2 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB378B0328889FA000950AA2 /* WorkoutDetailView.swift */; };
+		DB378B062888A31200950AA2 /* WorkoutRepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB378B052888A31200950AA2 /* WorkoutRepsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB378ADF2888874000950AA2 /* Habitus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habitus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB378AE22888874000950AA2 /* HabitusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitusApp.swift; sourceTree = "<group>"; };
-		DB378AE42888874000950AA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB378AE42888874000950AA2 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		DB378AE62888874000950AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB378AE92888874000950AA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB378AF528888A6800950AA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB378AF728888F4F00950AA2 /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		DB378AF928888FC600950AA2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DB378AFB2888908300950AA2 /* WorkoutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutButtonView.swift; sourceTree = "<group>"; };
+		DB378AFD2888950800950AA2 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DB378AFF288897C100950AA2 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		DB378B01288897CF00950AA2 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		DB378B0328889FA000950AA2 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		DB378B052888A31200950AA2 /* WorkoutRepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRepsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +54,7 @@
 			children = (
 				DB378AE12888874000950AA2 /* Habitus */,
 				DB378AE02888874000950AA2 /* Products */,
+				DB378AF428888A6800950AA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +70,11 @@
 			isa = PBXGroup;
 			children = (
 				DB378AE22888874000950AA2 /* HabitusApp.swift */,
-				DB378AE42888874000950AA2 /* ContentView.swift */,
-				DB378AE62888874000950AA2 /* Assets.xcassets */,
+				DB378AF22888879800950AA2 /* Views */,
+				DB378AF12888879500950AA2 /* ViewModels */,
+				DB378AF02888879300950AA2 /* Models */,
 				DB378AE82888874000950AA2 /* Preview Content */,
+				DB378AFD2888950800950AA2 /* data.json */,
 			);
 			path = Habitus;
 			sourceTree = "<group>";
@@ -65,6 +85,44 @@
 				DB378AE92888874000950AA2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB378AF02888879300950AA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB378B01288897CF00950AA2 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB378AF12888879500950AA2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DB378AFF288897C100950AA2 /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DB378AF22888879800950AA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB378AE42888874000950AA2 /* HomeTabView.swift */,
+				DB378AF928888FC600950AA2 /* HomeView.swift */,
+				DB378AF728888F4F00950AA2 /* WorkoutListView.swift */,
+				DB378B0328889FA000950AA2 /* WorkoutDetailView.swift */,
+				DB378B052888A31200950AA2 /* WorkoutRepsView.swift */,
+				DB378AFB2888908300950AA2 /* WorkoutButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB378AF428888A6800950AA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB378AE62888874000950AA2 /* Assets.xcassets */,
+				DB378AF528888A6800950AA2 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB378AEA2888874000950AA2 /* Preview Assets.xcassets in Resources */,
+				DB378AFE2888950800950AA2 /* data.json in Resources */,
 				DB378AE72888874000950AA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB378AE52888874000950AA2 /* ContentView.swift in Sources */,
+				DB378AE52888874000950AA2 /* HomeTabView.swift in Sources */,
+				DB378B062888A31200950AA2 /* WorkoutRepsView.swift in Sources */,
+				DB378AFA28888FC600950AA2 /* HomeView.swift in Sources */,
+				DB378B02288897CF00950AA2 /* Workout.swift in Sources */,
+				DB378B0428889FA000950AA2 /* WorkoutDetailView.swift in Sources */,
 				DB378AE32888874000950AA2 /* HabitusApp.swift in Sources */,
+				DB378AFC2888908300950AA2 /* WorkoutButtonView.swift in Sources */,
+				DB378AF828888F4F00950AA2 /* WorkoutListView.swift in Sources */,
+				DB378B00288897C100950AA2 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +336,7 @@
 				DEVELOPMENT_TEAM = 6DKVTJV552;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Habitus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +366,7 @@
 				DEVELOPMENT_TEAM = 6DKVTJV552;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Habitus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
